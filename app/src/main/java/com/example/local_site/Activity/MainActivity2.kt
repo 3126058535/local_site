@@ -1,4 +1,4 @@
-package com.example.local_site
+package com.example.local_site.Activity
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -14,11 +14,10 @@ import com.amap.api.maps2d.AMap
 import com.amap.api.maps2d.CameraUpdateFactory
 import com.amap.api.maps2d.LocationSource
 import com.amap.api.maps2d.MapView
-import com.amap.api.maps2d.MapsInitializer
 
-import com.amap.api.maps2d.UiSettings
 import com.amap.api.maps2d.model.LatLng
 import com.amap.api.services.core.ServiceSettings
+import com.example.local_site.R
 
 
 class MainActivity2 : AppCompatActivity(), LocationSource, AMapLocationListener {
